@@ -18,6 +18,7 @@ endif
 
 NOSTDINC_FLAGS += \
 	-I$(PWD)/include/ \
+	-I$(PWD)/drivers/net/ovpn-dco/include/ \
 	$(CFLAGS) \
 	$(VERSION_INCLUDE) \
 	-include $(PWD)/drivers/net/ovpn-dco/linux-compat.h \
